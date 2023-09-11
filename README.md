@@ -22,7 +22,7 @@ node index.js
 
 ## API Endpoints
 
-Get all courses
+# Get all courses
 
 Method: GET
 
@@ -30,7 +30,7 @@ Endpoint: /api/courses
 
 Response: Array of courses
 
-Get a specific course
+# Get a specific course
 
 Method: GET
 
@@ -38,7 +38,7 @@ Endpoint: /api/courses/:id
 
 Response: Single course object
 
-Add a new course
+# Add a new course
 
 Method: POST
 
@@ -46,7 +46,7 @@ Endpoint: /api/courses
 
 Body: name field is required
 
-Update an existing course
+# Update an existing course
 
 Method: PUT
 
@@ -54,10 +54,10 @@ Endpoint: /api/courses/:id
 
 Body: name field is required
 
-Delete a course
+# Delete a course
 
 Method: DELETE
 Endpoint: /api/courses/:id
 
-Validation
+# Validation
 This API uses Joi for input validation. Course names should be at least 3 characters long.

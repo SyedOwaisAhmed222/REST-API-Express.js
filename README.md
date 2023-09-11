@@ -8,10 +8,9 @@ This is a simple RESTful API built with Node.js and Express to manage courses. I
 - NPM
 
 ## Installation
+Clone the repository:
 
-1. Clone the repository:
-
-```bash
+terminal>
 git clone [your-repo-url]
 cd [your-project-name]
 npm install

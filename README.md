@@ -20,7 +20,7 @@ npm install
 
 node index.js
 
-##API Endpoints
+## API Endpoints
 
 Get all courses
 

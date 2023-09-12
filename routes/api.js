@@ -52,7 +52,6 @@ router
   })
   .delete((req, res) => {
     const course = courses.find((c) => c.id == req.params.id);
-    console.log(course);
     if (!course) return res.status(404).send("invalid course id");
     const index = courses.indexOf(course);
     courses.splice(index, 1);

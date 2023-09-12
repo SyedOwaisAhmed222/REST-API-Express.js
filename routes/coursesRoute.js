@@ -10,7 +10,7 @@ const courses = [
   ];
 
 router
-  .route("/courses")
+  .route("/")
   .get((req, res) => {
     res.send(courses);
   })
@@ -32,7 +32,7 @@ router
   });
 
 router
-  .route("/courses/:id")
+  .route("/:id")
   .get((req, res) => {
     const course = courses.find((c) => c.id == req.params.id);
     if (!course) return res.status(404).send("invalid course id");

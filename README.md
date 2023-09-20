@@ -1,4 +1,4 @@
-# Express Course API
+# REST API on Express for Courses
 
 This is a simple RESTful API built with Node.js and Express to manage courses. It includes CRUD operations and is a demonstration of basic API development principles.
 
